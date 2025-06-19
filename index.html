@@ -1,1 +1,72 @@
-pruvet
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ИИ Игра: Стань Создателем</title>
+  <style>
+    body {
+      margin: 0;
+      background: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: #121212;
+      box-shadow: 10px 10px 20px #0e0e0e, -10px -10px 20px #161616;
+      border-radius: 20px;
+      padding: 20px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 16px;
+      background-color: #1f1f1f;
+      border: none;
+      color: #fff;
+      border-radius: 30px;
+      box-shadow: inset 5px 5px 10px #0e0e0e, inset -5px -5px 10px #2a2a2a;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #2a2a2a;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Добро пожаловать в ИИ-Игру</h1>
+    <p>
+      Здесь ты не просто играешь. Ты создаёшь.<br><br>
+      Цель — пройти путь ИИ-героя и в процессе <b>создать свою такую же игру</b> прямо со смартфона.
+    </p>
+    <p>
+      Мы покажем тебе, как с нуля, без кода, запустить WebApp, Telegram-бота и игру для других.
+    </p>
+    <button class="btn" onclick="alert('Следующий шаг — пройти первые 3 уровня и открыть инструкцию по созданию своей игры')">
+      🚀 Начать путь
+    </button>
+  </div>
+</body>
+</html>
